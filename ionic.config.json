@@ -1,0 +1,7 @@
+{
+  "name": "escalada-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
