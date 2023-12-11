@@ -30,4 +30,10 @@ Una vez que la instalación se haya completado, verifica que Angular se haya ins
 •	ng version
 
 Deberías ver la versión de Ionic y Angular instalada en tu sistema.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EJECUCION DE APP
+
+Desde el Visual Studio ejecutar el siguiente comando.
+
+• ionic serve
 
