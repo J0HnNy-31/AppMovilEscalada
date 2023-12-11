@@ -1,0 +1,69 @@
+<ion-header style="min-height: 100px;"> 
+  <ion-toolbar color="warning" style="min-height: 100px;">
+    <ion-grid>
+      <ion-row>
+        <ion-row>
+
+          <ion-col style=" color: #fff; text-align: center;">
+            <ion-button fill="clear" style="text-align: center; height: 60%; width: 60%; padding-top: 10%;" ion-button (click)="onDejanosMensaje()">
+              <img src="../../../assets/configuracion/flecha-izquierda.png" style="text-align: center; height: 100%; width: 100%;"/>  
+            </ion-button>
+          </ion-col >
+
+          <ion-col style="color: #000000; text-align: center; padding-top: 10%; text-align: center;">
+             DÉJANOS UN MENSAJE
+          </ion-col>
+
+          <ion-col style="color: #fff; text-align: center;">
+            <ion-button [disabled]="true" fill="clear" style="text-align: center; height: 60%; width: 60%; padding-top: 10%;">
+               
+            </ion-button>
+          </ion-col>
+
+        </ion-row>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning" >
+  <div>
+    <h2 style="margin-left: 5%; margin-right: 5%;">
+      Si no tienes dudas genial, quiere decir que lo hemos hecho muy bien, si posees alguna Sugerencia, llena este formulario.
+    </h2>
+
+    <div>
+      <ion-input style="margin-left: 10%; margin-right: 5%; margin-top: 10%;" label="Nombre Completo" label-placement="floating" fill="outline" placeholder="Nombre"></ion-input>
+    </div>
+
+    <div>
+      <ion-input style="margin-left: 10%; margin-right: 5%; margin-top: 10%;" type="email" fill="solid" label="Email" labelPlacement="floating" ngModel email></ion-input>
+    </div>
+
+    <div >
+      <ion-item style="margin-left: 5%; margin-top: 10%; --background: rgb(255, 196, 9); margin-right: 10%">
+        <ion-textarea label="Stacked label" labelPlacement="stacked" placeholder="Enter text"></ion-textarea>
+      </ion-item>
+    </div>   
+    
+    
+    <div style="margin-top: 42%; margin-left: 5%; margin-right: 5%;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size-md="6">
+            <ion-button expand="full" color="warning">Cerrar sesion</ion-button>
+          </ion-col>
+          <ion-col size-md="6">
+            <ion-button expand="full" color="warning">Eliminar Cuenta</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer >
+  <ion-toolbar color="warning" style="min-height: 100px;">
+
+  </ion-toolbar>
+</ion-footer>

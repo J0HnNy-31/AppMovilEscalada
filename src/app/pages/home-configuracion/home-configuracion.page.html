@@ -1,0 +1,84 @@
+<ion-header style="min-height: 100px;"> 
+  <ion-toolbar color="warning" style="min-height: 100px;">
+    <ion-grid>
+      <ion-row>
+        <ion-row>
+
+          <ion-col style=" color: #fff; text-align: center;">
+            <ion-button fill="clear" style="text-align: center; height: 60%; width: 60%; padding-top: 10%;" ion-button (click)="onAtras()">
+              <img src="../../../assets/configuracion/flecha-izquierda.png" style="text-align: center; height: 100%; width: 100%;"/>  
+            </ion-button>
+          </ion-col >
+
+          <ion-col style="color: #000000; text-align: center; padding-top: 10%; text-align: center;">
+             CONFIGURACIÓN
+          </ion-col>
+
+          <ion-col style="color: #fff; text-align: center;">
+            <ion-button [disabled]="true" fill="clear" style="text-align: center; height: 60%; width: 60%; padding-top: 10%;">
+               
+            </ion-button>
+          </ion-col>
+
+        </ion-row>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning" >
+  <div>
+    <h1 style="margin-left: 5%;">Social</h1>
+    <div>
+      <ion-card color="warning">
+        <ion-card-header>
+            <ion-card-subtitle> 
+              <ion-button size="small" fill="clear">Ingresa a Nuestro Sitio Web</ion-button>
+            </ion-card-subtitle>
+            <ion-card-subtitle>
+              <ion-button size="small" fill="clear">Instagram</ion-button>
+            </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+
+    <h1 style="margin-left: 5%;">Sobre Nuestra App</h1>
+    <div>
+      <ion-card color="warning">
+        <ion-card-header>
+          <ion-card-subtitle> 
+            <ion-button size="small" fill="clear">Términos y Consiciones</ion-button>
+          </ion-card-subtitle>
+          <ion-card-subtitle> 
+            <ion-button size="small" fill="clear">Politica de Privacidad</ion-button>
+          </ion-card-subtitle>
+          <ion-card-subtitle> 
+            <ion-button size="small" fill="clear">Acerca de BoulderConnect</ion-button>
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+
+    <ion-button fill="outline" style="margin-left: 30%;" ion-button (click)="onIrDejanosmensaje()">Déjanos un Mensaje</ion-button>
+    
+    <h1 style="margin-top: 20%; margin-left: 5%;">Cuenta</h1>
+    <div>
+      <ion-grid>
+        <ion-row>
+          <ion-col size-md="6">
+            <ion-button expand="full" color="warning">Cerrar sesion</ion-button>
+          </ion-col>
+          <ion-col size-md="6">
+            <ion-button expand="full" color="warning">Eliminar Cuenta</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer >
+  <ion-toolbar color="warning" style="min-height: 100px;">
+
+  </ion-toolbar>
+</ion-footer>
