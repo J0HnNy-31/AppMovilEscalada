@@ -12,28 +12,23 @@ Antes de comenzar, asegúrate de tener Node.js y npm (Node Package Manager) inst
 Pasos para la Instalación de Ionic:
 
 Abre tu terminal o línea de comandos. Instala Ionic globalmente en tu sistema ejecutando el siguiente comando:
-
 •	npm install -g @ionic/cli
 
 Este comando instala el cliente de Ionic de forma global, lo que te permite utilizarlo desde cualquier proyecto.
 
 Una vez que la instalación se haya completado, verifica que Ionic se haya instalado correctamente ejecutando:
-
 •	ionic –version
 
 Instala Angular 
-
 •	npm i -g @angular/cli
 
 Una vez que la instalación se haya completado, verifica que Angular se haya instalado correctamente ejecutando:
-
 •	ng version
 
 Deberías ver la versión de Ionic y Angular instalada en tu sistema.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EJECUCION DE APP
-
-
 
 Desde el Visual Studio ejecutar el siguiente comando.
 • npm install
