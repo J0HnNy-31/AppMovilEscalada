@@ -27,7 +27,7 @@ Instala Angular
 
 Una vez que la instalación se haya completado, verifica que Angular se haya instalado correctamente ejecutando:
 
-•	ionic –version
+•	ng version
 
 Deberías ver la versión de Ionic y Angular instalada en tu sistema.
 
