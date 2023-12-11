@@ -33,7 +33,9 @@ Deberías ver la versión de Ionic y Angular instalada en tu sistema.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EJECUCION DE APP
 
-Desde el Visual Studio ejecutar el siguiente comando.
 
+
+Desde el Visual Studio ejecutar el siguiente comando.
+• npm install
 • ionic serve
 
